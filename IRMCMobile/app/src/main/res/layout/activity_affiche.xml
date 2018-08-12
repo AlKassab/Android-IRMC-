@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme"
+    tools:context="com.example.eymen.test.AfficheActivity">
+
+
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/sigle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sigle" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="delete" />
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
